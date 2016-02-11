@@ -8,7 +8,7 @@ export default Ember.Controller.extend({
     if (this.get("say")) {
       return this.get("say");
     } else {
-      return "The Life of Pablo";
+      return "Start typing";
     }
     
   }.property("say"),
