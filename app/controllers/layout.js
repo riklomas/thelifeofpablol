@@ -1,15 +1,22 @@
 import Ember from 'ember';
 
 export default Ember.Controller.extend({
+  queryParams: ['say'],
   
   fullPhrase: function () {
     
-    if (this.get("phrase")) {
-      return this.get("phrase");
+    if (this.get("say")) {
+      return this.get("say");
     } else {
-      return "The Life of Typing";
+      return "The Life of Pablo";
     }
     
-  }.property("phrase")
+  }.property("say"),
+  
+  actions: {
+    clickFocus: function () {
+      Ember.$.find("input").get(0).focus();
+    }
+  }
   
 });
