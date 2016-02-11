@@ -5,13 +5,12 @@ html, body {
 body {
   height: 100%;
   font: 700 13.9px/1.198 Helvetica, Arial;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.05em;
   color: #000;
   text-transform: uppercase;
-  /*background: url(/bg.jpg) center center no-repeat;*/
+  background: url(/bg.jpg) center center no-repeat;
   background-color: #f78c58;
   background-size: 512px;
-  /*text-align: center;*/
 }
 
 .clickfocus {
@@ -57,7 +56,7 @@ input {
 #kanye > div > div {
   position: relative;
   width: 2000px;
-  left: -925px;
+  left: -927px;
   text-align: center;
 }
 
@@ -73,7 +72,7 @@ input {
 
 #block3 {
   left: 38px;
-  top: 262px;
+  top: 263px;
 }
 
 #block4 {
@@ -82,8 +81,8 @@ input {
 }
 
 #block5 {
-  left: 186px;
-  top: 196px;
+  left: 187px;
+  top: 195px;
 }
 
 #block6 {
@@ -92,25 +91,25 @@ input {
 }
 
 #block7 {
-  left: 324px;
-  top: 72px;
+  left: 326px;
+  top: 73px;
 }
 
 #block8 {
-  left: 326px;
-  top: 202px;
+  left: 328px;
+  top: 201px;
 }
 
 #block9 {
-  left: 311px;
+  left: 313px;
   top: 321px;
 }
 
 img {
-  left: 67px;
-  top: 394px;
-  width: 118px;
-  height: 82px;
+  left: 65px;
+  top: 397px;
+  width: 119px;
+  height: 83px;
 }
 
 
