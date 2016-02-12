@@ -1,9 +1,11 @@
 html, body {
   height: 100%;
+  min-height: 100%;
 }
 
 body {
-  height: 100%;
+  width: 600px;
+  margin: 0 auto;
   font: 700 13.9px/1.198 Helvetica, Arial;
   letter-spacing: 0.05em;
   color: #000;
@@ -55,6 +57,7 @@ input {
   color: rgba(255,255,255,0);
   -webkit-text-fill-color: rgba(255,255,255,0);
   text-align: center;
+  font-size: 24px;
 }
 
 #kanye > div, img {
